@@ -16,6 +16,6 @@ function calcular() {
     if(resultado) {
         document.getElementById('res').innerHTML = eval(resultado);
     } else {
-        alert('[ERRO] IMPOSSÍVEL CALCULAR.');
+        alert('[ERRO] Nada para calcular.');
     }
 }
